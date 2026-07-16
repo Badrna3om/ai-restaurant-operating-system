@@ -47,14 +47,22 @@ Customers can browse an interactive menu, submit orders through WhatsApp, receiv
 ```text
 AI-Restaurant-Operating-System/
 ├── README.md
-├── LICENSE
+├── NOTICE.md
 ├── .gitignore
 ├── docs/
 │   ├── ARCHITECTURE.md
 │   ├── BUSINESS_FLOW.md
-│   ├── SETUP.md
-│   └── SECURITY.md
+│   ├── DATABASE_SCHEMA.md
+│   ├── FINAL_REVIEW.md
+│   ├── SECURITY.md
+│   └── SETUP.md
 ├── images/
+│   ├── interactive-menu.png
+│   ├── kitchen-dashboard.png
+│   ├── waiter-dashboard.png
+│   ├── reports-dashboard.png
+│   ├── main-n8n-workflow.png
+│   ├── close-session-workflow.png
 │   ├── system-architecture.svg
 │   └── workflow-overview.svg
 ├── screenshots/

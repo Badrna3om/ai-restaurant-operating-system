@@ -16,7 +16,7 @@ This project connects a customer-facing WhatsApp ordering experience with restau
 
 Customers can browse an interactive menu, submit orders through WhatsApp, receive AI-assisted responses, confirm or modify orders, request a waiter, ask for the bill, and complete the order lifecycle. Staff use dedicated kitchen and waiter dashboards, while managers can review operational reports.
 
-> This repository contains a sanitized public portfolio version. Credentials, private URLs, customer data, and production identifiers have been removed.
+> This repository contains a sanitized public portfolio version. Credentials, secrets, customer data, and private infrastructure identifiers have been removed.
 
 ---
 
@@ -145,6 +145,34 @@ Configuration placeholders are documented in `web-app/README.md`.
 
 ---
 
+## Screenshots
+
+### Interactive Menu
+
+![Interactive Menu](images/interactive-menu.png)
+
+### Kitchen Dashboard
+
+![Kitchen Dashboard](images/kitchen-dashboard.png)
+
+### Waiter / Cashier Dashboard
+
+![Waiter Dashboard](images/waiter-dashboard.png)
+
+### Reports Dashboard
+
+![Reports Dashboard](images/reports-dashboard.png)
+
+### Main n8n Workflow
+
+![Main n8n Workflow](images/main-n8n-workflow.png)
+
+### Close Order Session Workflow
+
+![Close Session Workflow](images/close-session-workflow.png)
+
+---
+
 ## Security Notice
 
 This public version excludes:
@@ -162,7 +190,7 @@ See `docs/SECURITY.md` before using any workflow in another environment.
 
 ## Project Status
 
-**Working prototype / portfolio project**
+**Functional prototype / portfolio project**
 
 The system has been developed and tested as a functional restaurant automation demo. Production deployment would require authentication, row-level security, monitoring, rate limiting, backup policies, and environment-based secret management.
 

@@ -38,3 +38,8 @@ The main workflow uses states including:
 - `cancellation_requested`
 
 The close-session workflow returns the customer to `waiting_order` after payment.
+
+
+## Implementation View
+
+![Main n8n Workflow](../images/main-n8n-workflow.png)

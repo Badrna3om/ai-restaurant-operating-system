@@ -50,10 +50,16 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "coupon_sent": false,
-            "marketing_opt_in": false,
             "session_status": "waiting_order",
-            "first_seen_at": "={{$now}}"
+            "last_seen_at": "={{$now}}",
+            "current_order_id": "",
+            "current_order_items": "",
+            "current_order_text": "",
+            "current_order_total": 0,
+            "special_request": "",
+            "current_order_type": "unknown",
+            "current_table_id": "",
+            "waiter_calls": 0
           },
           "matchingColumns": [],
           "schema": [
@@ -376,7 +382,7 @@
       ]
     }
   },
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1",
     "binaryMode": "separate",

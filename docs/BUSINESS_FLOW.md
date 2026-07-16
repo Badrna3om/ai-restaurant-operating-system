@@ -36,3 +36,22 @@ The AI router recognizes:
 - Cancel order
 - FAQ
 - Menu / general conversation
+
+
+## Interface Examples
+
+### Interactive Menu
+
+![Interactive Menu](../images/interactive-menu.png)
+
+### Kitchen Dashboard
+
+![Kitchen Dashboard](../images/kitchen-dashboard.png)
+
+### Waiter / Cashier Dashboard
+
+![Waiter Dashboard](../images/waiter-dashboard.png)
+
+### Reports Dashboard
+
+![Reports Dashboard](../images/reports-dashboard.png)

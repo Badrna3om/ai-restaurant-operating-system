@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420">
+<rect width="1500" height="420" fill="#f7f3ed"/>
+<style>.t{font-family:Arial,sans-serif;fill:#171717}.h{font-size:30px;font-weight:700}.p{font-size:17px;font-weight:700}.b{fill:#fffaf2;stroke:#9b6b2f;stroke-width:2;rx:18}.a{stroke:#171717;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#171717"/></marker></defs>
+<text x="750" y="55" text-anchor="middle" class="t h">Order Lifecycle</text>
+<rect x="35" y="150" width="170" height="90" class="b"/><text x="120" y="205" text-anchor="middle" class="t p">Incoming Message</text>
+<rect x="250" y="150" width="170" height="90" class="b"/><text x="335" y="205" text-anchor="middle" class="t p">Normalize</text>
+<rect x="465" y="150" width="170" height="90" class="b"/><text x="550" y="205" text-anchor="middle" class="t p">Session Router</text>
+<rect x="680" y="150" width="170" height="90" class="b"/><text x="765" y="195" text-anchor="middle" class="t p">AI Parse /</text><text x="765" y="220" text-anchor="middle" class="t p">Intent Route</text>
+<rect x="895" y="150" width="170" height="90" class="b"/><text x="980" y="195" text-anchor="middle" class="t p">Confirm / Modify /</text><text x="980" y="220" text-anchor="middle" class="t p">Cancel</text>
+<rect x="1110" y="150" width="170" height="90" class="b"/><text x="1195" y="205" text-anchor="middle" class="t p">Supabase Order</text>
+<rect x="1325" y="150" width="140" height="90" class="b"/><text x="1395" y="195" text-anchor="middle" class="t p">Kitchen +</text><text x="1395" y="220" text-anchor="middle" class="t p">Waiter</text>
+<path d="M205 195 H250" class="a"/><path d="M420 195 H465" class="a"/><path d="M635 195 H680" class="a"/><path d="M850 195 H895" class="a"/><path d="M1065 195 H1110" class="a"/><path d="M1280 195 H1325" class="a"/>
+<rect x="610" y="310" width="280" height="75" class="b"/><text x="750" y="355" text-anchor="middle" class="t p">Paid → Close Session → waiting_order</text>
+<path d="M1395 240 V275 H750 V310" class="a"/>
+</svg>

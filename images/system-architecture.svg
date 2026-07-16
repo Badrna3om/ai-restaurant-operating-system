@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<rect width="1400" height="760" fill="#f7f3ed"/>
+<style>
+.t{font-family:Arial,sans-serif;fill:#171717}
+.h{font-size:32px;font-weight:700}
+.s{font-size:20px;font-weight:700}
+.p{font-size:16px}
+.b{fill:#fffaf2;stroke:#9b6b2f;stroke-width:2;rx:20}
+.a{stroke:#171717;stroke-width:3;fill:none;marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#171717"/></marker></defs>
+<text x="700" y="55" text-anchor="middle" class="t h">AI Restaurant Operating System</text>
+<rect x="60" y="130" width="220" height="110" class="b"/><text x="170" y="175" text-anchor="middle" class="t s">Customer</text><text x="170" y="205" text-anchor="middle" class="t p">Menu + WhatsApp</text>
+<rect x="360" y="130" width="220" height="110" class="b"/><text x="470" y="175" text-anchor="middle" class="t s">Kapso</text><text x="470" y="205" text-anchor="middle" class="t p">WhatsApp API</text>
+<rect x="660" y="130" width="220" height="110" class="b"/><text x="770" y="175" text-anchor="middle" class="t s">n8n</text><text x="770" y="205" text-anchor="middle" class="t p">Routing + Orchestration</text>
+<rect x="960" y="130" width="220" height="110" class="b"/><text x="1070" y="175" text-anchor="middle" class="t s">LLM Layer</text><text x="1070" y="205" text-anchor="middle" class="t p">Parser + FAQ + Intent</text>
+<path d="M280 185 H360" class="a"/><path d="M580 185 H660" class="a"/><path d="M880 185 H960" class="a"/>
+<rect x="360" y="350" width="260" height="120" class="b"/><text x="490" y="395" text-anchor="middle" class="t s">Customer State</text><text x="490" y="425" text-anchor="middle" class="t p">n8n Data Tables</text>
+<rect x="760" y="350" width="260" height="120" class="b"/><text x="890" y="395" text-anchor="middle" class="t s">Orders Database</text><text x="890" y="425" text-anchor="middle" class="t p">Supabase / PostgreSQL</text>
+<path d="M770 240 V300 H490 V350" class="a"/><path d="M770 240 V300 H890 V350" class="a"/>
+<rect x="120" y="590" width="260" height="110" class="b"/><text x="250" y="635" text-anchor="middle" class="t s">Kitchen Dashboard</text><text x="250" y="665" text-anchor="middle" class="t p">Pending → Preparing → Ready</text>
+<rect x="570" y="590" width="260" height="110" class="b"/><text x="700" y="635" text-anchor="middle" class="t s">Waiter Dashboard</text><text x="700" y="665" text-anchor="middle" class="t p">Serve → Bill → Paid</text>
+<rect x="1020" y="590" width="260" height="110" class="b"/><text x="1150" y="635" text-anchor="middle" class="t s">Reports</text><text x="1150" y="665" text-anchor="middle" class="t p">Orders + Revenue + AOV</text>
+<path d="M890 470 V530 H250 V590" class="a"/><path d="M890 470 V530 H700 V590" class="a"/><path d="M890 470 V530 H1150 V590" class="a"/>
+</svg>

@@ -18,6 +18,22 @@ Customers can browse an interactive menu, submit orders through WhatsApp, receiv
 
 > This repository contains a sanitized public portfolio version. Credentials, secrets, customer data, and private infrastructure identifiers have been removed.
 
+## Business Problem
+
+Restaurant teams often manage digital enquiries, orders, kitchen updates, waiter requests, and payment closure across disconnected manual steps. This creates duplicated work, slow handoffs, inconsistent customer responses, and limited operational visibility.
+
+## Solution and Business Value
+
+This system connects the customer conversation directly to restaurant operations. It reduces repetitive message handling, structures incoming orders, routes tasks to the correct team, and gives staff a shared view of order status.
+
+- Faster handoff from customer order to kitchen
+- Consistent order capture and confirmation
+- Clear separation of kitchen, waiter, and cashier responsibilities
+- Reduced manual follow-up for routine requests
+- Better operational visibility through live dashboards and reports
+- Human handover remains available when automation is not appropriate
+
+
 ---
 
 ## Main Capabilities
@@ -96,7 +112,19 @@ AI-Restaurant-Operating-System/
 
 ---
 
+## Engineering Highlights
+
+- State-based conversation routing instead of relying on a single unrestricted AI prompt
+- Structured LLM outputs for reliable order parsing and validation
+- Idempotency and self-message filtering to reduce duplicate processing
+- Separate customer, kitchen, waiter, cashier, and reporting concerns
+- Database-backed order lifecycle with realtime dashboard updates
+- Sanitized public workflows with credentials and private identifiers removed
+
+---
+
 ## Technology Stack
+
 
 - **Automation:** n8n
 - **AI / LLM:** OpenAI-compatible models and Gemini through OpenRouter

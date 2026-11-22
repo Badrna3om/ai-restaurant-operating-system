@@ -1,12 +1,25 @@
+<p align="center"><strong>BADRELDIN — PRODUCTION AI PORTFOLIO</strong><br/><a href="https://github.com/Badrna3om">Profile</a> · <a href="https://github.com/Badrna3om/tactic-ai-media-platform">TACTIC / AMER</a> · <a href="https://github.com/Badrna3om/buaskoor-ai-commerce-platform">Commerce</a> · <a href="https://github.com/Badrna3om/ai-restaurant-operating-system">Restaurant</a> · <a href="https://github.com/Badrna3om/ai-content-automation-for-e-commerce">Marketing</a></p>
+
 <div align="center">
 
 # 🍽️ AI Restaurant Operating System
 
 ### WhatsApp Ordering • AI Routing • Kitchen Operations • Waiter Dashboard • Reports
 
-A working restaurant automation prototype built with **n8n, LLMs, Kapso WhatsApp API, Supabase, JavaScript, and Netlify**.
+An operations-focused AI restaurant system connecting guest conversations, session management, orders, kitchen and waiter handoffs. **This public repository is a sanitized portfolio implementation**, not the production configuration.
 
 </div>
+
+---
+
+## Portfolio quick view
+
+**Restaurant AI · Guest-to-Kitchen Operations**  
+[Interactive menu](images/interactive-menu.png) · [Kitchen dashboard](images/kitchen-dashboard.png)
+
+**What this proves:** stateful AI conversations, structured service requests, staff handoffs and operational status.
+
+> **Disclosure:** The repository is for public technical review. Operating credentials, private infrastructure, customer data and confidential business logic are excluded.
 
 ---
 
@@ -226,9 +239,9 @@ See `docs/SECURITY.md` before using any workflow in another environment.
 
 ## Project Status
 
-**Functional prototype / portfolio project**
+**Public portfolio implementation of operational restaurant workflows.**
 
-The system has been developed and tested as a functional restaurant automation demo. Production deployment would require authentication, row-level security, monitoring, rate limiting, backup policies, and environment-based secret management.
+The connected restaurant operation is maintained separately from this repository. The public code/screenshots are a sanitized presentation and should **not** be deployed unchanged to process customer orders. Any new deployment needs authentication, row-level security, monitoring, rate limiting, backups and environment-managed credentials.
 
 ---
 

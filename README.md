@@ -12,6 +12,16 @@
 
 </div>
 
+## Quick animated overview
+
+<div align="center">
+
+![Animated portfolio tour made from existing repository screenshots](assets/visual-tour.webp)
+
+*Short sequence of existing public screenshots. This is an edited portfolio walkthrough, **not** a live system capture or a production-performance metric.*
+
+</div>
+
 ## A complete service journey
 
 <table>

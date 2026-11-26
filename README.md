@@ -2,13 +2,45 @@
 
 <div align="center">
 
-# 🍽️ AI Restaurant Operating System
+![Restaurant AI — Guest-to-kitchen operating system](assets/portfolio-hero.svg)
 
-### WhatsApp Ordering • AI Routing • Kitchen Operations • Waiter Dashboard • Reports
+### Conversational ordering → human service → kitchen → billing & reporting
 
-An operations-focused AI restaurant system connecting guest conversations, session management, orders, kitchen and waiter handoffs. **This public repository is a sanitized portfolio implementation**, not the production configuration.
+**Functional public portfolio implementation with real workflow artifacts.** This is not a verified production-ready deployment; credentials and infrastructure configuration are excluded.
+
+[**End-to-end flow**](#core-workflow) · [**Technical architecture**](#system-architecture) · [**Security**](#security-notice) · [**Portfolio**](https://github.com/Badrna3om)
 
 </div>
+
+## A complete service journey
+
+<table>
+<tr>
+<td align="center" width="25%"><img src="images/interactive-menu.png" alt="Interactive restaurant menu screenshot" width="200"/><br/><b>01 · Guest menu</b></td>
+<td align="center" width="25%"><img src="images/kitchen-dashboard.png" alt="Kitchen operations dashboard screenshot" width="200"/><br/><b>02 · Kitchen orders</b></td>
+<td align="center" width="25%"><img src="images/waiter-dashboard.png" alt="Waiter and cashier dashboard screenshot" width="200"/><br/><b>03 · Service handoff</b></td>
+<td align="center" width="25%"><img src="images/reports-dashboard.png" alt="Restaurant reporting dashboard screenshot" width="200"/><br/><b>04 · Reporting</b></td>
+</tr>
+</table>
+
+*Screenshots come from this repository's portfolio implementation; they are not evidence of measured revenue, live restaurant uptime or real transaction volumes.*
+
+### The operational handoff
+
+```mermaid
+flowchart LR
+ A["WhatsApp / guest menu"] --> B["Intent & session state"]
+ B --> C["Confirm structured order"]
+ C --> D["Persist in Supabase"]
+ D --> E["Kitchen / waiter dashboard"]
+ E --> F["Bill & payment closure"]
+ F --> G["Reset session and report"]
+ B --> H["Human assistance"]
+```
+
+**Engineering proof:** two sanitized n8n workflow exports, state-based intent routing, Supabase-backed order lifecycle, realtime dashboards and a session-close workflow.
+
+[**Menu screenshot**](images/interactive-menu.png) · [**Main n8n graph**](images/main-n8n-workflow.png) · [**Close-session graph**](images/close-session-workflow.png).
 
 ---
 

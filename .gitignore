@@ -1,0 +1,30 @@
+# Credentials and private local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.local.json
+credentials*.json
+secrets*.json
+
+# Runtime / local development artifacts
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+*.log
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Do not ignore documented example workflow files or screenshots.

@@ -8,7 +8,7 @@
 
 **Functional public portfolio implementation with real workflow artifacts.** This is not a verified production-ready deployment; credentials and infrastructure configuration are excluded.
 
-[**End-to-end flow**](#core-workflow) · [**Technical architecture**](#system-architecture) · [**Security**](#security-notice) · [**Portfolio**](https://github.com/Badrna3om)
+[**Case study and evidence**](docs/PORTFOLIO_CASE_STUDY.md) · [**End-to-end flow**](#core-workflow) · [**Technical architecture**](#system-architecture) · [**Security**](#security-notice) · [**Portfolio**](https://github.com/Badrna3om)
 
 </div>
 
@@ -281,7 +281,7 @@ See `docs/SECURITY.md` before using any workflow in another environment.
 
 ## Project Status
 
-**Public portfolio implementation of operational restaurant workflows.**
+**Sanitized functional portfolio implementation. Not a verified production-ready deployment.**
 
 The connected restaurant operation is maintained separately from this repository. The public code/screenshots are a sanitized presentation and should **not** be deployed unchanged to process customer orders. Any new deployment needs authentication, row-level security, monitoring, rate limiting, backups and environment-managed credentials.
 
